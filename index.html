@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html ng-app="angular1">
+
+<head>
+    <title> Welcome</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+
+<body>
+
+    <div ng-controller="indexCtrl">
+        {{message}}
+    </div>
+
+
+    <div ng-view>
+    </div>
+
+
+    <script src="assets/js/angular.js"></script>
+    <script src="assets/js/angular-route.min.js"></script>
+
+
+    <script src="app/app.module.js"></script>
+    <script src="app/app.routes.js"></script>
+    <!--<script src="app/components/login/login.module.js"></script>-->
+    <script src="app/components/index/indexController.js"></script>
+
+
+</body>
+
+</html>
